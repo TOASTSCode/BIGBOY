@@ -3,12 +3,29 @@ searchBar.addEventListener("input", () => {
   renderGames();
 });
 const games = [
-
+{
+    date: "2026-09-05",
+    name: "Holder Of Place",
+    file: "HolderOfPlace/index.html",
+    desc: "A Personal FAVORITE",
+  },
+  {
+    date: "2026-09-05",
+    name: "My Keyboard is full of ANTS",
+    file: "aNTS/index.html",
+    desc: "Typing incremental",
+  },
    {
     date: "2026-09-05",
     name: "The Backrooms",
     file: "Backrooms/index.html",
     desc: "It seems you've fallen",
+  },
+     {
+    date: "2026-09-05",
+    name: "Psychofind: Fight anomalies",
+    file: "Psychofind/index.html",
+    desc: "Requested game, Fight anomalies.",
   },
 ];
 
