@@ -27,7 +27,18 @@ body {
   border: 1px solid rgba(127, 223, 255, 0.2);
   box-shadow: 0 0 20px rgba(127, 223, 255, 0.1);
 
-  
+  /* Logo */
+.warning {
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: rgb(224, 224, 224);
+  text-shadow: 0 0 10px #7fdfff;
+  text-align: end;
+}
+.warning {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+}
 
 }
 
