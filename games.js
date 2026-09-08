@@ -11,6 +11,12 @@ const games = [
   },
   {
     date: "2026-09-05",
+    name: "COBB CAN MOVE",
+    file: "COBBCANMIVE/index.html",
+    desc: "Harder and harder it gets..",
+  },
+  {
+    date: "2026-09-05",
     name: "My Keyboard is full of ANTS",
     file: "aNTS/index.html",
     desc: "Typing incremental",
