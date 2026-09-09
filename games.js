@@ -10,6 +10,18 @@ const games = [
     desc: "A Personal FAVORITE",
   },
   {
+    date: "2026-09-08",
+    name: "ConSoul",
+    file: "ConSoul/index.html",
+    desc: "Delete her Please Delete HER",
+  },
+  {
+    date: "2026-09-08",
+    name: "AutoNecrochess",
+    file: "NecroChess/index.html", 
+    desc: "No Clue. Chess.. Auto.",
+  },
+  {
     date: "2026-09-05",
     name: "COBB CAN MOVE",
     file: "COBBCANMIVE/index.html",
