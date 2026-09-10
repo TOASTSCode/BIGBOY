@@ -28,6 +28,17 @@ const games = [
     desc: "Deltarune Minigame Updated",
   },
   {
+    date: "2026-09-10",
+    name: "TinyTowers",
+    file: "TT/index.html", 
+    desc: "Tiny Tower Defense",
+  },
+    {
+    date: "2026-09-10",
+    name: "Super Mario 127",
+    file: "SM127/index.html", 
+    desc: "Super Mario 64 + Super Mario 63 = Super Mario 127",
+  },  {
     date: "2026-09-05",
     name: "COBB CAN MOVE",
     file: "COBBCANMIVE/index.html",
