@@ -21,6 +21,12 @@ const games = [
     file: "NecroChess/index.html", 
     desc: "No Clue. Chess.. Auto.",
   },
+    {
+    date: "2026-09-10",
+    name: "Lightners Live Plus",
+    file: "LightnersPlus/index.html", 
+    desc: "Deltarune Minigame Updated",
+  },
   {
     date: "2026-09-05",
     name: "COBB CAN MOVE",
