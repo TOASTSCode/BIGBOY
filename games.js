@@ -21,6 +21,18 @@ const games = [
     file: "NecroChess/index.html", 
     desc: "No Clue. Chess.. Auto.",
   },
+  {
+    date: "2026-09-08",
+    name: "Solve or BLOW",
+    file: "Solvethebomb/index.html", 
+    desc: "BOOM",
+  },
+  {
+    date: "2026-09-08",
+    name: "Cafe (Request)",
+    file: "CAfe/Webgl/index.html", 
+    desc: "DONT ASK THIS WAS A REQUEST",
+  },
     {
     date: "2026-09-10",
     name: "Lightners Live Plus",
