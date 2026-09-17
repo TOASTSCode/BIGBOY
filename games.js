@@ -33,6 +33,12 @@ const games = [
     file: "CAfe/Webgl/index.html", 
     desc: "DONT ASK THIS WAS A REQUEST",
   },
+   {
+    date: "2026-09-17",
+    name: "EGG",
+    file: "Egg/index.html", 
+    desc: "Thats right.. Its back",
+  },
     {
     date: "2026-09-10",
     name: "Lightners Live Plus",
