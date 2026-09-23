@@ -15,6 +15,14 @@ const games = [
     file: "ConSoul/index.html",
     desc: "Delete her Please Delete HER",
   },
+   
+  
+    {
+    date: "2026-09-22",
+    name: "Botomon Battle",
+    file: "BatomonBattle/index.html",
+    desc: "??????? I Don't know",
+  },
   {
     date: "2026-09-08",
     name: "AutoNecrochess",

@@ -1,0 +1,120 @@
+/* Basic reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+#unity-container {
+    position: absolute;
+    width: 960px;
+    height: 540px;
+
+    /* Custom background */
+    background-image: url("loading_screen.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* General positioning by platform */
+#unity-container.unity-desktop {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#unity-container.unity-mobile {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* Canvas (you can keep the background or make it transparent) */
+#unity-canvas {
+    background: transparent;
+}
+
+.unity-mobile #unity-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* Optional template logo (hidden) */
+#unity-logo {
+    display: none;
+}
+
+/* Empty bar style */
+#unity-progress-bar-empty {
+    width: 300px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* Filled bar animated by Unity */
+#unity-progress-bar-full {
+    width: 0%;
+    height: 100%;
+    background: #e2e2e2;
+}
+
+/* Footer and miscellaneous elements */
+#unity-footer {
+    position: relative;
+}
+
+.unity-mobile #unity-footer {
+    display: none;
+}
+
+#unity-webgl-logo {
+    float: left;
+    width: 204px;
+    height: 38px;
+    background: url('webgl-logo.png') no-repeat center;
+}
+
+#unity-build-title {
+    float: right;
+    margin-right: 10px;
+    line-height: 38px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#unity-fullscreen-button {
+    cursor: pointer;
+    float: right;
+    width: 38px;
+    height: 38px;
+    background: url('fullscreen-button.png') no-repeat center;
+}
+
+/* Warnings */
+#unity-warning {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    background: white;
+    padding: 10px;
+    display: none;
+}
+
+#unity-loading-bar {
+    position: absolute;
+    left: 50%;
+    top: calc(10% + 20px);
+    /* center + 20px */
+    transform: translateX(-50%);
+    /* center horizontally */
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
